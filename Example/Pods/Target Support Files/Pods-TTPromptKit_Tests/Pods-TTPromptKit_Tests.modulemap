@@ -1,0 +1,6 @@
+framework module Pods_TTPromptKit_Tests {
+  umbrella header "Pods-TTPromptKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

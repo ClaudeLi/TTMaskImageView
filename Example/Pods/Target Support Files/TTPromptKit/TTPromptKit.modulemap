@@ -1,0 +1,6 @@
+framework module TTPromptKit {
+  umbrella header "TTPromptKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - TTPromptKit (0.1.2):
+    - TTPromptKit/TTAlert (= 0.1.2)
+    - TTPromptKit/TTGuide (= 0.1.2)
+    - TTPromptKit/TTHUD (= 0.1.2)
+  - TTPromptKit/TTAlert (0.1.2)
+  - TTPromptKit/TTGuide (0.1.2)
+  - TTPromptKit/TTHUD (0.1.2):
+    - MBProgressHUD (~> 0.9.2)
+
+DEPENDENCIES:
+  - TTPromptKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  TTPromptKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  TTPromptKit: d7d0795b3a72725901c8693c88701714f896de2d
+
+PODFILE CHECKSUM: 504cc0eab14968a7724206ed9c4c0d76bb69f869
+
+COCOAPODS: 1.5.3
