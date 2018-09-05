@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class MBProgressHUD;
 @interface UIViewController (THUD)
+
+@property (nonatomic, strong) MBProgressHUD *progressHUD;
 
 /**
  显示菊花loading

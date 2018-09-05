@@ -10,35 +10,46 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <objc/message.h>
 
-static MBProgressHUD *_progressHUD;
 @implementation UIViewController (THUD)
 
+- (void)setProgressHUD:(UIColor *)progressHUD{
+    objc_setAssociatedObject(self, @selector(progressHUD), progressHUD, OBJC_ASSOCIATION_RETAIN);
+}
+
 - (MBProgressHUD *)progressHUD{
-    if (!_progressHUD) {
-        _progressHUD = [[MBProgressHUD alloc] initWithView:self.view];
-        _progressHUD.userInteractionEnabled = NO;
-        _progressHUD.removeFromSuperViewOnHide = YES;
-        [self.view addSubview:_progressHUD];
-        [self.view bringSubviewToFront:_progressHUD];
+    return objc_getAssociatedObject(self, @selector(progressHUD));
+}
+
+- (void)bringHUDToFront{
+    if (!self.progressHUD) {
+        MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:self.view];
+        HUD.userInteractionEnabled = NO;
+        HUD.removeFromSuperViewOnHide = YES;
+        self.progressHUD = HUD;
     }
-    return _progressHUD;
+    if (!self.progressHUD.superview) {
+        [self.view addSubview:self.progressHUD];
+    }
+    [self.view bringSubviewToFront:self.progressHUD];
 }
 
 - (void)showProgress:(BOOL)canTouch{
-    [self hideProgress];
+    [self bringHUDToFront];
     if (!canTouch) {
         self.progressHUD.userInteractionEnabled = YES;
     }else{
         self.progressHUD.userInteractionEnabled = NO;
     }
+    self.progressHUD.mode = MBProgressHUDModeIndeterminate;
+    self.progressHUD.labelText = nil;
     [self.progressHUD show:YES];
 }
 
 - (void)hideProgress{
-    if (_progressHUD) {
-        [_progressHUD hide:YES];
-        [_progressHUD removeFromSuperview];
-        _progressHUD = nil;
+    if (self.progressHUD) {
+        [self.progressHUD hide:YES];
+        [self.progressHUD removeFromSuperview];
+        self.progressHUD = nil;
     }
 }
 
@@ -52,28 +63,28 @@ static MBProgressHUD *_progressHUD;
 }
 
 - (void)showText:(NSString *)string delay:(NSTimeInterval)delay canTouch:(BOOL)canTouch{
-    [self hideProgress];
+    [self bringHUDToFront];
     if (!canTouch) {
         self.progressHUD.userInteractionEnabled = YES;
     }else{
         self.progressHUD.userInteractionEnabled = NO;
     }
-    _progressHUD.mode = MBProgressHUDModeText;
-    _progressHUD.labelText = string;
-    [_progressHUD show:YES];
-    [_progressHUD hide:YES afterDelay:delay];
+    self.progressHUD.mode = MBProgressHUDModeText;
+    self.progressHUD.labelText = string;
+    [self.progressHUD show:YES];
+    [self.progressHUD hide:YES afterDelay:delay];
 }
 
 // loading 带文字
 - (void)showProgressWithText:(NSString *)string start:(BOOL)start{
     if (start) {
-        [self hideProgress];
+        [self bringHUDToFront];
         self.progressHUD.mode = MBProgressHUDModeIndeterminate;
-        _progressHUD.userInteractionEnabled = NO;
-        _progressHUD.labelText = string;
-        [_progressHUD show:YES];
+        self.progressHUD.userInteractionEnabled = NO;
+        self.progressHUD.labelText = string;
+        [self.progressHUD show:YES];
     }else{
-        _progressHUD.labelText = string;
+        self.progressHUD.labelText = string;
     }
 }
 
