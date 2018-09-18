@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import "TTAlertController.h"
+#import <TTAlertKit/TTAlertController.h>
+#import <TTAlertKit/TTAlert.h>
 
 #import "TTGuideHUD.h"
 

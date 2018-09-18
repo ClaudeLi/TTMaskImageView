@@ -31,14 +31,14 @@
 }
 
 - (IBAction)alert1:(id)sender {
-    alert = [[TTAlertController alloc] initAlertWithTitle:@"你好"
-                                            message:@"message"
-                                  cancelButtonTitle:@"cancel"
-                                  otherButtonTitles:@"other1",@"other2",@"other3", nil];
-    [alert setDidClickIndexBlock:^(NSInteger index) {
-        NSLog(@"%ld", index);
-    }];
-    [alert show];
+    [TTAlert alertInView:self.view
+                   title:@"你好"
+                 message:@"message"
+          completeHelper:^(NSInteger clickIndex) {
+              NSLog(@"%ld", clickIndex);
+          }
+             cancelTitle:@"cancel"
+             otherTitles:@"other1",@"other2",@"other3", nil];
 }
 
 - (IBAction)alert2:(id)sender {

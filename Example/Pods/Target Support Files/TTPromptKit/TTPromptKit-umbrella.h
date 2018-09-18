@@ -11,7 +11,6 @@
 #endif
 
 #import "TTPromptKit.h"
-#import "TTAlertController.h"
 #import "TTGuideHUD.h"
 #import "TTHUDController.h"
 #import "UIView+THUD.h"

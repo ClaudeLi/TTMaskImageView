@@ -1,6 +1,6 @@
 {
   "name": "TTPromptKit",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "summary": "TTPromptKit",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ClaudeLi/TTPromptKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ClaudeLi/TTPromptKit.git",
-    "tag": "0.1.3"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,7 +23,11 @@
   "subspecs": [
     {
       "name": "TTAlert",
-      "source_files": "TTPromptKit/TTAlert/**/*"
+      "dependencies": {
+        "TTAlertKit": [
+
+        ]
+      }
     },
     {
       "name": "TTGuide",
