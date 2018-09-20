@@ -6,14 +6,9 @@
 //  Copyright © 2018年 claudeli@yeah.net. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-
 #import <TTAlertKit/TTAlertController.h>
 #import <TTAlertKit/TTAlert.h>
 
-#import "TTGuideHUD.h"
+#import <TTProgressHUD/TTProgressHUD.h>
 
-#import "UIView+THUD.h"
-#import "UIViewController+THUD.h"
-#import "TTHUDController.h"
+#import "TTGuideHUD.h"

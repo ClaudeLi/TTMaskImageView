@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTPromptKit'
-  s.version          = '0.1.5'
+  s.version          = '1.0.0'
   s.summary          = 'TTPromptKit'
 
 # This description is used to generate tags and improve search results.
@@ -42,8 +42,7 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'TTHUD' do |ss|
-    ss.source_files = 'TTPromptKit/TTHUD/**/*'
-    ss.dependency 'MBProgressHUD', '~> 0.9.2'
+    ss.dependency 'TTProgressHUD'
   end
 
   # s.resource_bundles = {

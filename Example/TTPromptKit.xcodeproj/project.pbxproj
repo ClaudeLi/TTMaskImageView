@@ -324,12 +324,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-TTPromptKit_Example/Pods-TTPromptKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/TTAlertKit/TTAlertKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TTProgressHUD/TTProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/TTPromptKit/TTPromptKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTAlertKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTPromptKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

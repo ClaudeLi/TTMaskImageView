@@ -12,9 +12,6 @@
 
 #import "TTPromptKit.h"
 #import "TTGuideHUD.h"
-#import "TTHUDController.h"
-#import "UIView+THUD.h"
-#import "UIViewController+THUD.h"
 
 FOUNDATION_EXPORT double TTPromptKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TTPromptKitVersionString[];

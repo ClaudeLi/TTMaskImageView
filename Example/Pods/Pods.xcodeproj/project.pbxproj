@@ -7,78 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056363D6974F685C1B38A8891A3950B0 /* UIViewController+THUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 210F8F79355CE7837CD385202C5F817D /* UIViewController+THUD.m */; };
-		09C4842D244A02FF12AA0A60E080BEE1 /* TTHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D777E96D02E305EDFFD4FECBD877B /* TTHUDController.m */; };
-		114EBCBB296ACA6236F32C702C688C85 /* Pods-TTPromptKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E985D12B3F2BC5CA4A77121D418ED8F2 /* Pods-TTPromptKit_Example-dummy.m */; };
-		1647F63F77AF47E3784FB812C46FCF2F /* TTAlertKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB5CEF507064A1685A78400BD5898A /* TTAlertKit-dummy.m */; };
-		1DFAFAF3F1D23FFFC9850B44C04FD497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */; };
-		225492C94F0E37EBBD2B78D5AACBC440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */; };
-		2595948BA1F341B17660D49BB3EF94FE /* TTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6716A4E4924A1D70692DD04F8B099D /* TTAlertController.m */; };
-		2AAA0BAF0CB5DFCB040B340EDFDFC2D3 /* TTAlertKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A1BD793FB65ECC638F30DA46B5E036 /* TTAlertKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C2ACD7E0FDBB0E87ED7B28A83A01EF6 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF12868F61303189B3893BBC10041691 /* MBProgressHUD.framework */; };
-		325E3E653A821694A80985A606C540A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */; };
-		467F403533CB969BA38C34701C50EAE6 /* TTAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CE24C1C464F023B43FB303E897CE4E /* TTAlert.m */; };
-		493BE6F0602D77403838D4200CADE6FB /* UIViewController+THUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AA2D1121ECFA7124A1E1933506B19A /* UIViewController+THUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53478DC9D43554EC6161239CC456F968 /* Pods-TTPromptKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC4816CD4442B205A8812FD7F72E3B0 /* Pods-TTPromptKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5583982BA033EE4C8681868A16EF5ADB /* TTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4715C0EAE42F0427E996395345AA92 /* TTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D28F551E84B72C33FEDA05DB8A99B6 /* MBProgressHUD-dummy.m */; };
-		6149219FA19A60EBE19855687515AC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */; };
-		69227BD718D0EDBAAABBD26C9EB6F5DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */; };
-		6DBB3DA93B43B887FCED32C5418F4B18 /* TTGuideHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CC88AB99342F4031AFFC4AF3570C4 /* TTGuideHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		035AD76CC610750C0DD2C8ACA7490CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		13406649FAE2D201CB408E1D20D0D659 /* UIViewController+THUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC88B82173BE5938EC71922FDB58E5C /* UIViewController+THUD.m */; };
+		225492C94F0E37EBBD2B78D5AACBC440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		26C5232C36072B7B2F74BA53DD9FC007 /* TTHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F778835C8A8FE59F283272395B75D /* TTHUDController.m */; };
+		2B443F93FA253732CB88BE93C06408D4 /* Pods-TTPromptKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E985D12B3F2BC5CA4A77121D418ED8F2 /* Pods-TTPromptKit_Example-dummy.m */; };
+		3B5D279E107960DECB0648BAFEA417FF /* TTProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CC74A9C12A5FDDA851DE682299A76 /* TTProgressHUD-dummy.m */; };
+		4561CB4A41AF42F5526A8C55F28C5E6A /* TTHUDController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA2DFD65CD8F9FF2AAD327CE5F90611 /* TTHUDController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		466055864E35B888BBEE8C74883D2B98 /* TTAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A3A8E81C04060882C8975F76427698 /* TTAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53FF30AC60841405821D7D077AFAF66F /* TTAlertKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51123B7DBC187DA54CB592FBEB39E3E9 /* TTAlertKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8951379EFCB838AE9436D6589F2DABE8 /* MBProgressHUD-dummy.m */; };
+		5B713BE04FB2DD799031F886868EC1B6 /* TTPromptKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5446B4B077DDC49D93A00E80F030DC1 /* TTPromptKit-dummy.m */; };
+		64DF24B4B2EE22A0AC3A249E6B7EEFEF /* UIViewController+THUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE986AF3F8A7B9CA60124BCFF2208DA /* UIViewController+THUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69227BD718D0EDBAAABBD26C9EB6F5DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		6DB1A595462D8E984F5C537771101EAC /* Pods-TTPromptKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC4816CD4442B205A8812FD7F72E3B0 /* Pods-TTPromptKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700C3BBB4007BA95F1BC794CAA17BE0F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C2D0D6891B42980274D2098A57F8E /* MBProgressHUD.framework */; };
+		70FE05C28A647FE0D9D8CC1B6EB0DD78 /* TTPromptKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 629E8EA4B2F6E952E30FBF9F26C5B5E8 /* TTPromptKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE004A1ECACA8722029454D4FE0D998 /* TTAlertKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B73917B3883D4FB349A98F900E85682 /* TTAlertKit-dummy.m */; };
+		8B5EE423D1215F49333D5412B9878A27 /* TTProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9F4D6B89C2868ED5B532196F2EAF1E /* TTProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920E7CAE59FAA30E29D9528BBA62B37A /* TTGuideHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A845A89A5D58F203F6895CE2CD271 /* TTGuideHUD.m */; };
+		9547BFF48AFADC45F8142BC54D846D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		96D0ADCB3BD05D167D3F015BB5D95AC2 /* TTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E166D502ECA581D1FE9F1E02B59E9AE /* TTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97C053E4A8AD65709026FDC361FD4524 /* Pods-TTPromptKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44564D43B7F5A8910AF6D8E1E19D3956 /* Pods-TTPromptKit_Tests-dummy.m */; };
-		A3508385721FD61755B064A256E6FA45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AB2454366B3EE897BA942C29347454 /* CoreGraphics.framework */; };
-		AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D3EC23A70F274C3DAE291C3163F3A /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19448286E3798326850DDA1E52B8F6D0 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBA1160DE58AB5088BDD1AB7ED9C2EF4 /* TTPromptKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0762A0F0A8E986A36681E075A4A03A60 /* TTPromptKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D49A1CCA06E5701151F026F75415F0 /* TTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA07FA6316B2BFFDC2085FC778EB4DF /* TTAlertController.m */; };
+		9C09BADDC82FEEFB334C2F8DECC613B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		9D0CFA56989289D2598B732DEB42DAC5 /* UIView+THUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C5C13BF6C386F39D24262F1B6D6DC /* UIView+THUD.m */; };
+		9D831D041CEFC784A27229829B4ABB86 /* UIView+THUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB5C1B308E4CCD4427BAABBEFA58D26 /* UIView+THUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3508385721FD61755B064A256E6FA45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE03C61A774D699AF692A84E2DFD49B7 /* CoreGraphics.framework */; };
+		AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 50335671A0341007D9AF235E348805CE /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B138174BD4F3EC0BD266C738CDFDB1D3 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C2D0D6891B42980274D2098A57F8E /* MBProgressHUD.framework */; };
+		B52D2405E92B4233C8D86806C33DC052 /* TTGuideHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2CA90AA47F1AFDF044AB62E69E3AD5 /* TTGuideHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B65A025ACD15BA83417BF50BD54996 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBA4252B66E475A23B2E3B13095481C1 /* Pods-TTPromptKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1669F07702100C1CEC9A0A5A6DF4D44 /* Pods-TTPromptKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF05BF58C24CFCA369E43B6DB16F3C2A /* UIView+THUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F6654C3B2A22EAE00C1810F3A22F1D /* UIView+THUD.m */; };
-		C79F1DEC35460B378520BFDF6C9CEF58 /* TTPromptKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4498D7A49A83A6CE40950CBC181E9E /* TTPromptKit-dummy.m */; };
-		CDBBF4DB171572A421120DB778417F65 /* TTPromptKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F18C9EB4CABFDB03256268118DC151 /* TTPromptKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F88786BD31CA0A2262BF3E4ED95FE8 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAC7D2B54C115246B147552137C7AA42 /* TTHUDController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9409523B12A67EA0FCBD08E1544550 /* TTHUDController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE0F211CD8BC33FE9367AFD5836FB882 /* UIView+THUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0643CAEDA1C87A6BFB24D0E54923E1 /* UIView+THUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5FA820837FFCD54ED91A8DA7BF1FDD2 /* TTAlertKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB2689DBF65746C0AF40D9B9652F3E4 /* TTAlertKit.framework */; };
-		E6D9BD424878732492CEF390F50F29B5 /* TTAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8208394D22285DED8F135C0F8F5068CB /* TTAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7F2A5899D32800EA9E23B8D083BCE35 /* TTGuideHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8D44FACCA4338BE184D6D015FE3E5 /* TTGuideHUD.m */; };
+		C176495228B74E1EF5BA75A4D3C48357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */; };
+		D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E35DE3FFABE3FC6AB8CEE020BE4E919 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6FDCBA4FED0747EE958248649052043 /* TTPromptKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 675F0966A30A35C88D06B85E85CB4FBD /* TTPromptKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D88295D3D6DE419F012DCC24BE24C736 /* TTAlertKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1D0F74719ECCBAB126F2A181878042 /* TTAlertKit.framework */; };
+		EEF2FA6EF6A5B2388EA1048509ADC9B6 /* TTProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665EAFBB802AC753054027BE8BB96B2C /* TTProgressHUD.framework */; };
+		F980C5651420D1598F64DBD1D12A32B4 /* TTAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B18FD063B130A73271F2D520D6DCED /* TTAlert.m */; };
+		FCFE76AB1C1F27CBCDE4EE9DC5FAA5F8 /* TTProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E426E0BE84A56E63C16A19DADDD80562 /* TTProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23170E141846BE8DB3930CDC096D0333 /* PBXContainerItemProxy */ = {
+		1D8411FFDD0847287AC4E5A1FF5DAB1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F3E550CD6B2D1F2F109D8BA37D5A80B;
-			remoteInfo = TTPromptKit;
+			remoteGlobalIDString = 277CB9D882BC775B61C5DFD87D0CCB75;
+			remoteInfo = TTProgressHUD;
 		};
-		3BF5E599BDD22FCE56B570D1880E3C51 /* PBXContainerItemProxy */ = {
+		2F72DB301DE5815218BB9849DBD74CAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 74DB5180D5FD48C128FFEDB4D112B56F;
-			remoteInfo = TTAlertKit;
+			remoteGlobalIDString = 277CB9D882BC775B61C5DFD87D0CCB75;
+			remoteInfo = TTProgressHUD;
 		};
-		5602F60B7BF5D4E90D9A26C2A6FC6504 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74DB5180D5FD48C128FFEDB4D112B56F;
-			remoteInfo = TTAlertKit;
-		};
-		6AB591AF37F4CFA2A7E0C0FE5E3A8F9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56963AD0D4AA7EF4D06C67402D1E1685;
-			remoteInfo = "Pods-TTPromptKit_Example";
-		};
-		A3CBEC40C43976EC36F1ABA429D324C9 /* PBXContainerItemProxy */ = {
+		4A7A5D91889075C6B39823C0EB62654D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6B1714E816AE794962516E2ECBB40A5A;
 			remoteInfo = MBProgressHUD;
 		};
-		B20770166E3DB1D7088E8C0CC4CB63B3 /* PBXContainerItemProxy */ = {
+		537903BBAD8C8919A230AD9EB19AD647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF17DA1512E8D95EFCF9714E2F191EA;
+			remoteInfo = TTAlertKit;
+		};
+		6AB591AF37F4CFA2A7E0C0FE5E3A8F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA3BBB6421084F239A16EAD05EA09C7;
+			remoteInfo = "Pods-TTPromptKit_Example";
+		};
+		724A21C9CC8BF361CD17BDAD59C3C893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829B6153F279A8D1C05E0F7EB3C9EEFF;
+			remoteInfo = TTPromptKit;
+		};
+		B8C31A03472BF8E3777FB121405B9A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1714E816AE794962516E2ECBB40A5A;
+			remoteInfo = MBProgressHUD;
+		};
+		D2297E217FE59F3B4DF49EE17001A10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF17DA1512E8D95EFCF9714E2F191EA;
+			remoteInfo = TTAlertKit;
+		};
+		F547A1044B60FF68F1536B4BC85CE96F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -88,90 +115,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0050E0C4831A98E06AE28B2B6BFE59FB /* TTPromptKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTPromptKit.xcconfig; sourceTree = "<group>"; };
-		02F88786BD31CA0A2262BF3E4ED95FE8 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		0762A0F0A8E986A36681E075A4A03A60 /* TTPromptKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTPromptKit.h; path = TTPromptKit/TTPromptKit.h; sourceTree = "<group>"; };
-		0A4D777E96D02E305EDFFD4FECBD877B /* TTHUDController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHUDController.m; path = TTPromptKit/TTHUD/TTHUDController.m; sourceTree = "<group>"; };
-		15BB5CEF507064A1685A78400BD5898A /* TTAlertKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTAlertKit-dummy.m"; sourceTree = "<group>"; };
-		19448286E3798326850DDA1E52B8F6D0 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		02D1181C21663A8E1A5567FA1FD2CFF4 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		053CC74A9C12A5FDDA851DE682299A76 /* TTProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		08B65A025ACD15BA83417BF50BD54996 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0E35DE3FFABE3FC6AB8CEE020BE4E919 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0E3ED639D960C48E7ED2B8B6B7E88A9F /* TTAlertKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTAlertKit-prefix.pch"; sourceTree = "<group>"; };
+		109E3FB3ACBA4941ECCF31D8B92D4023 /* TTPromptKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTPromptKit-prefix.pch"; sourceTree = "<group>"; };
+		11265A3A1A9FC7D72033AF70564A5F03 /* TTAlertKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTAlertKit.modulemap; sourceTree = "<group>"; };
 		1B5A7086D624E0B10C40DB4FC191D4DD /* Pods-TTPromptKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTPromptKit_Tests.modulemap"; sourceTree = "<group>"; };
-		1B8CC88AB99342F4031AFFC4AF3570C4 /* TTGuideHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGuideHUD.h; path = TTPromptKit/TTGuide/TTGuideHUD.h; sourceTree = "<group>"; };
-		1F80961B64DB7FA7B2B04B5B27DA20B3 /* TTPromptKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTPromptKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		200DB9B15D9CA014DF38345EAB1AFD7D /* TTPromptKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTPromptKit.framework; path = TTPromptKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		210F8F79355CE7837CD385202C5F817D /* UIViewController+THUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+THUD.m"; path = "TTPromptKit/TTHUD/UIViewController+THUD.m"; sourceTree = "<group>"; };
-		2139E08F823064F33FD32408F9559FD3 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29AF4DA6AE7A7ECFA2F790FDE1C41C50 /* Pods_TTPromptKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTPromptKit_Tests.framework; path = "Pods-TTPromptKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35A1BD793FB65ECC638F30DA46B5E036 /* TTAlertKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTAlertKit-umbrella.h"; sourceTree = "<group>"; };
-		36F3509367BC296AB897B5C204363994 /* TTPromptKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTPromptKit.modulemap; sourceTree = "<group>"; };
-		39B537B053F05A045603E3A0107F5F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3B93F6F8BA1A24B8493E439A2AC97606 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		3C0643CAEDA1C87A6BFB24D0E54923E1 /* UIView+THUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+THUD.h"; path = "TTPromptKit/TTHUD/UIView+THUD.h"; sourceTree = "<group>"; };
+		1CA07FA6316B2BFFDC2085FC778EB4DF /* TTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTAlertController.m; path = TTAlertKit/Classes/TTAlertController.m; sourceTree = "<group>"; };
+		2B73917B3883D4FB349A98F900E85682 /* TTAlertKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTAlertKit-dummy.m"; sourceTree = "<group>"; };
+		2CA2DFD65CD8F9FF2AAD327CE5F90611 /* TTHUDController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHUDController.h; path = TTProgressHUD/Classes/TTHUDController.h; sourceTree = "<group>"; };
+		2D29B021A00E891048E180B4DA683D4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5A845A89A5D58F203F6895CE2CD271 /* TTGuideHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGuideHUD.m; path = TTPromptKit/TTGuide/TTGuideHUD.m; sourceTree = "<group>"; };
+		31B18FD063B130A73271F2D520D6DCED /* TTAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTAlert.m; path = TTAlertKit/Classes/TTAlert.m; sourceTree = "<group>"; };
+		35B59C9AE694E800ADB67769485DE15D /* TTProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTProgressHUD.xcconfig; sourceTree = "<group>"; };
+		41C1AEC92005C5D3A7A1CCDBDC3D9D18 /* TTProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4334BC36368F88D236923F9417B14597 /* TTPromptKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTPromptKit.modulemap; sourceTree = "<group>"; };
 		44564D43B7F5A8910AF6D8E1E19D3956 /* Pods-TTPromptKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTPromptKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		46F8D44FACCA4338BE184D6D015FE3E5 /* TTGuideHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGuideHUD.m; path = TTPromptKit/TTGuide/TTGuideHUD.m; sourceTree = "<group>"; };
-		4883BB76349ACE896D0708B77D4F28A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AC24951DB63EAED61CA4577889FDD12 /* TTAlertKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTAlertKit.xcconfig; sourceTree = "<group>"; };
-		4EB2689DBF65746C0AF40D9B9652F3E4 /* TTAlertKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTAlertKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F6716A4E4924A1D70692DD04F8B099D /* TTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTAlertController.m; path = TTAlertKit/Classes/TTAlertController.m; sourceTree = "<group>"; };
+		454AA2008DE6655AFF1EA0AD8BD184B2 /* Pods_TTPromptKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTPromptKit_Example.framework; path = "Pods-TTPromptKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2CA90AA47F1AFDF044AB62E69E3AD5 /* TTGuideHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGuideHUD.h; path = TTPromptKit/TTGuide/TTGuideHUD.h; sourceTree = "<group>"; };
+		4E8C5C13BF6C386F39D24262F1B6D6DC /* UIView+THUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+THUD.m"; path = "TTProgressHUD/Classes/UIView+THUD.m"; sourceTree = "<group>"; };
+		4F2F778835C8A8FE59F283272395B75D /* TTHUDController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHUDController.m; path = TTProgressHUD/Classes/TTHUDController.m; sourceTree = "<group>"; };
+		50335671A0341007D9AF235E348805CE /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		51123B7DBC187DA54CB592FBEB39E3E9 /* TTAlertKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTAlertKit-umbrella.h"; sourceTree = "<group>"; };
 		5368BAC5E29B9B6FFE42231C3EF87BEC /* Pods-TTPromptKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPromptKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		577266F9A23CDDE23D28DD4A6998A46F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5788F35C94898313C3CEE75F9610FD91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5413FB4E0F1C9F2FCEE62CC77CCED9CB /* Pods_TTPromptKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTPromptKit_Tests.framework; path = "Pods-TTPromptKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C091B25B95DB53E95CD6E80E3F0336 /* TTPromptKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTPromptKit.framework; path = TTPromptKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		620D85847663D8BC160F12830CDE9049 /* Pods-TTPromptKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTPromptKit_Example-resources.sh"; sourceTree = "<group>"; };
-		69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		629E8EA4B2F6E952E30FBF9F26C5B5E8 /* TTPromptKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTPromptKit-umbrella.h"; sourceTree = "<group>"; };
+		63A3A8E81C04060882C8975F76427698 /* TTAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAlert.h; path = TTAlertKit/Classes/TTAlert.h; sourceTree = "<group>"; };
+		640596DAA366592DBCA6A57AD59FE9B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640C8247E5DC050E86AA0DB01504A0C1 /* TTAlertKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTAlertKit.framework; path = TTAlertKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665EAFBB802AC753054027BE8BB96B2C /* TTProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67297678BAFACBD37B2E04A52EA0DEC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		675F0966A30A35C88D06B85E85CB4FBD /* TTPromptKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTPromptKit.h; path = TTPromptKit/TTPromptKit.h; sourceTree = "<group>"; };
+		6A749EE5150E42CE9381A75165D797AD /* TTProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTProgressHUD.framework; path = TTProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7C4BE47DE208EC96C3FF63C3C8430A /* Pods-TTPromptKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTPromptKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E166D502ECA581D1FE9F1E02B59E9AE /* TTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAlertController.h; path = TTAlertKit/Classes/TTAlertController.h; sourceTree = "<group>"; };
 		708E154FE5063D8C9CE59B51C93F7EC0 /* Pods-TTPromptKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTPromptKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		73F3176B2A831B262F379FB65B1684BF /* Pods-TTPromptKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPromptKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		73F6654C3B2A22EAE00C1810F3A22F1D /* UIView+THUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+THUD.m"; path = "TTPromptKit/TTHUD/UIView+THUD.m"; sourceTree = "<group>"; };
-		76AB2454366B3EE897BA942C29347454 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		8208394D22285DED8F135C0F8F5068CB /* TTAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAlert.h; path = TTAlertKit/Classes/TTAlert.h; sourceTree = "<group>"; };
-		84D28F551E84B72C33FEDA05DB8A99B6 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		77CD4706B2E8B52CB62BA52A555DD75C /* TTPromptKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTPromptKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		803F5F91979A95E1B8722ADA12274067 /* TTAlertKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTAlertKit.xcconfig; sourceTree = "<group>"; };
+		8951379EFCB838AE9436D6589F2DABE8 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		8B927744DF1004FFAFB760214375AA64 /* Pods-TTPromptKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTPromptKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BB5C1B308E4CCD4427BAABBEFA58D26 /* UIView+THUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+THUD.h"; path = "TTProgressHUD/Classes/UIView+THUD.h"; sourceTree = "<group>"; };
 		8BDD9D42857F15BE4AA3CE7AD5260CAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F18C9EB4CABFDB03256268118DC151 /* TTPromptKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTPromptKit-umbrella.h"; sourceTree = "<group>"; };
-		9960DD98E224161E3B1ECF4BBFDF9F5B /* TTAlertKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTAlertKit-prefix.pch"; sourceTree = "<group>"; };
-		9AB285AC73F2B6C7131C6F7EA32C3021 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		9CC4816CD4442B205A8812FD7F72E3B0 /* Pods-TTPromptKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTPromptKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		A265CAB4BB2E7A8D3F1E6EE73FEDE8E0 /* TTAlertKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTAlertKit.framework; path = TTAlertKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A393449A39E0BB65F9920AC0A6F61229 /* Pods-TTPromptKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPromptKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A60D3EC23A70F274C3DAE291C3163F3A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		AF12868F61303189B3893BBC10041691 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB4715C0EAE42F0427E996395345AA92 /* TTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTAlertController.h; path = TTAlertKit/Classes/TTAlertController.h; sourceTree = "<group>"; };
-		BCCCDC8771A6F7842EFCD14D294B0D1B /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		BCE3F63C660004913AAE5A1D937B7F7F /* Pods_TTPromptKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTPromptKit_Example.framework; path = "Pods-TTPromptKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D80AD731BDE3EF894EA7A3E0B5F66C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		A5446B4B077DDC49D93A00E80F030DC1 /* TTPromptKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTPromptKit-dummy.m"; sourceTree = "<group>"; };
+		AEC88B82173BE5938EC71922FDB58E5C /* UIViewController+THUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+THUD.m"; path = "TTProgressHUD/Classes/UIViewController+THUD.m"; sourceTree = "<group>"; };
+		B352877A51A6C12C21022035658A7B03 /* TTProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTProgressHUD.modulemap; sourceTree = "<group>"; };
+		BC1D0F74719ECCBAB126F2A181878042 /* TTAlertKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTAlertKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE03C61A774D699AF692A84E2DFD49B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		C084F3732D3F12BF091E57A4B899ECD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C150879D955ECDA7D87AE5ABC9B659E7 /* Pods-TTPromptKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTPromptKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C92502509A1F2A572FB9BA126F3F9AC8 /* Pods-TTPromptKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPromptKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC4498D7A49A83A6CE40950CBC181E9E /* TTPromptKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTPromptKit-dummy.m"; sourceTree = "<group>"; };
-		D1AA2D1121ECFA7124A1E1933506B19A /* UIViewController+THUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+THUD.h"; path = "TTPromptKit/TTHUD/UIViewController+THUD.h"; sourceTree = "<group>"; };
+		D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3DA84CA27FD9071829FF4E78F67880B /* Pods-TTPromptKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTPromptKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D6B685D41CD050490DACFBA32974E9EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D08C827652C43D5D370E4434855447 /* Pods-TTPromptKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTPromptKit_Example.modulemap"; sourceTree = "<group>"; };
+		D741F8884F325C3A2D30237BB1642000 /* TTPromptKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTPromptKit.xcconfig; sourceTree = "<group>"; };
 		D7E92914F0204118C6C0FC52FE53B5B5 /* Pods-TTPromptKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTPromptKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DACC55B4C2AF4FB4106D0230BB31D0F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6D76AF554BB201B19ED4C440D5964F /* Pods-TTPromptKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTPromptKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		DC95A6D6DFBEACC02C86E71EC7DC2862 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		DF9F4D6B89C2868ED5B532196F2EAF1E /* TTProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTProgressHUD.h; path = TTProgressHUD/Classes/TTProgressHUD.h; sourceTree = "<group>"; };
+		DFE986AF3F8A7B9CA60124BCFF2208DA /* UIViewController+THUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+THUD.h"; path = "TTProgressHUD/Classes/UIViewController+THUD.h"; sourceTree = "<group>"; };
+		E426E0BE84A56E63C16A19DADDD80562 /* TTProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		E6394239DF776CDDE4C80371DAF8C13F /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		E985D12B3F2BC5CA4A77121D418ED8F2 /* Pods-TTPromptKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTPromptKit_Example-dummy.m"; sourceTree = "<group>"; };
-		E9F90C4543F1515861D33C27148FF52E /* TTAlertKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTAlertKit.modulemap; sourceTree = "<group>"; };
-		EA6AF69B502BD7F342C54FB72398FC27 /* TTPromptKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTPromptKit-prefix.pch"; sourceTree = "<group>"; };
-		EE9409523B12A67EA0FCBD08E1544550 /* TTHUDController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHUDController.h; path = TTPromptKit/TTHUD/TTHUDController.h; sourceTree = "<group>"; };
-		F0CE24C1C464F023B43FB303E897CE4E /* TTAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTAlert.m; path = TTAlertKit/Classes/TTAlert.m; sourceTree = "<group>"; };
+		EFE2A93D3AAD6CC92CF870FC0EE56B02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F1669F07702100C1CEC9A0A5A6DF4D44 /* Pods-TTPromptKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTPromptKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F1EB4AC40085014D69B3D6662DD6142F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4C2D0D6891B42980274D2098A57F8E /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BE1703FB410911298DB7F6C4C581314 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6149219FA19A60EBE19855687515AC33 /* Foundation.framework in Frameworks */,
-				2C2ACD7E0FDBB0E87ED7B28A83A01EF6 /* MBProgressHUD.framework in Frameworks */,
-				E5FA820837FFCD54ED91A8DA7BF1FDD2 /* TTAlertKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BE313FF5060CDBDA404FCBE4C4C6B10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				225492C94F0E37EBBD2B78D5AACBC440 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768D1A8015745AD3057B26C5CED177D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035AD76CC610750C0DD2C8ACA7490CE9 /* Foundation.framework in Frameworks */,
+				700C3BBB4007BA95F1BC794CAA17BE0F /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965C2485F54C93320B4EF10E7B4CF248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9547BFF48AFADC45F8142BC54D846D75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,77 +227,115 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E72ADDD29A6EF520981A94655BF799 /* Frameworks */ = {
+		C8228070CCCE5F39C6CF8BE63346CF68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				325E3E653A821694A80985A606C540A8 /* Foundation.framework in Frameworks */,
+				C176495228B74E1EF5BA75A4D3C48357 /* Foundation.framework in Frameworks */,
+				B138174BD4F3EC0BD266C738CDFDB1D3 /* MBProgressHUD.framework in Frameworks */,
+				D88295D3D6DE419F012DCC24BE24C736 /* TTAlertKit.framework in Frameworks */,
+				EEF2FA6EF6A5B2388EA1048509ADC9B6 /* TTProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D30F89720CB1EFC36008A65E829C29F4 /* Frameworks */ = {
+		F7E00F64DF582C5A108C9AC626E6C30B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DFAFAF3F1D23FFFC9850B44C04FD497 /* Foundation.framework in Frameworks */,
+				9C09BADDC82FEEFB334C2F8DECC613B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07B3AF0BCFCEBCBAD51B15D6F0643D98 /* Pod */ = {
+		0C484AEE44F008A6A175ACBE4F63AB82 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				39B537B053F05A045603E3A0107F5F5F /* LICENSE */,
-				5788F35C94898313C3CEE75F9610FD91 /* README.md */,
-				1F80961B64DB7FA7B2B04B5B27DA20B3 /* TTPromptKit.podspec */,
+				BE03C61A774D699AF692A84E2DFD49B7 /* CoreGraphics.framework */,
+				D360E8E500FFC15B67C85ED49E408E0E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0FD7F020E81D7ED96933F47A24C0CBEC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40C387B600766DDFD6D54A16459C5FBB /* TTPromptKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		22259D94D86B4C46AA63A4E28A6A37C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				67297678BAFACBD37B2E04A52EA0DEC1 /* LICENSE */,
+				EFE2A93D3AAD6CC92CF870FC0EE56B02 /* README.md */,
+				77CD4706B2E8B52CB62BA52A555DD75C /* TTPromptKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		12498D73911EB0FD20462D2F0A0E73DD /* Support Files */ = {
+		2B3A4D24F856238AE762642F1010D6C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				577266F9A23CDDE23D28DD4A6998A46F /* Info.plist */,
-				E9F90C4543F1515861D33C27148FF52E /* TTAlertKit.modulemap */,
-				4AC24951DB63EAED61CA4577889FDD12 /* TTAlertKit.xcconfig */,
-				15BB5CEF507064A1685A78400BD5898A /* TTAlertKit-dummy.m */,
-				9960DD98E224161E3B1ECF4BBFDF9F5B /* TTAlertKit-prefix.pch */,
-				35A1BD793FB65ECC638F30DA46B5E036 /* TTAlertKit-umbrella.h */,
+				640596DAA366592DBCA6A57AD59FE9B0 /* Info.plist */,
+				4334BC36368F88D236923F9417B14597 /* TTPromptKit.modulemap */,
+				D741F8884F325C3A2D30237BB1642000 /* TTPromptKit.xcconfig */,
+				A5446B4B077DDC49D93A00E80F030DC1 /* TTPromptKit-dummy.m */,
+				109E3FB3ACBA4941ECCF31D8B92D4023 /* TTPromptKit-prefix.pch */,
+				629E8EA4B2F6E952E30FBF9F26C5B5E8 /* TTPromptKit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TTAlertKit";
+			path = "Example/Pods/Target Support Files/TTPromptKit";
 			sourceTree = "<group>";
 		};
-		131211ABC88F683CF9B6737E20FD879F /* Products */ = {
+		356253E1A7B65B38F060E422453F199A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2139E08F823064F33FD32408F9559FD3 /* MBProgressHUD.framework */,
-				BCE3F63C660004913AAE5A1D937B7F7F /* Pods_TTPromptKit_Example.framework */,
-				29AF4DA6AE7A7ECFA2F790FDE1C41C50 /* Pods_TTPromptKit_Tests.framework */,
-				A265CAB4BB2E7A8D3F1E6EE73FEDE8E0 /* TTAlertKit.framework */,
-				200DB9B15D9CA014DF38345EAB1AFD7D /* TTPromptKit.framework */,
+				FD4C2D0D6891B42980274D2098A57F8E /* MBProgressHUD.framework */,
+				BC1D0F74719ECCBAB126F2A181878042 /* TTAlertKit.framework */,
+				665EAFBB802AC753054027BE8BB96B2C /* TTProgressHUD.framework */,
+				0C484AEE44F008A6A175ACBE4F63AB82 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		478E073E61AA0B0A70C4F278C0F8A7A4 /* Pods */ = {
+		3BE946C6DCCAEB114E082E400B9082B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				884AC785DCECAE2B915BAF70F28EB896 /* MBProgressHUD */,
-				8B7E13609B8843D3E124B241326CADB9 /* TTAlertKit */,
+				2D29B021A00E891048E180B4DA683D4A /* Info.plist */,
+				DC95A6D6DFBEACC02C86E71EC7DC2862 /* MBProgressHUD.modulemap */,
+				A4D80AD731BDE3EF894EA7A3E0B5F66C /* MBProgressHUD.xcconfig */,
+				8951379EFCB838AE9436D6589F2DABE8 /* MBProgressHUD-dummy.m */,
+				E6394239DF776CDDE4C80371DAF8C13F /* MBProgressHUD-prefix.pch */,
+				08B65A025ACD15BA83417BF50BD54996 /* MBProgressHUD-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		4792F13E164B15B90041AA2AEF71E70E /* TTGuide */ = {
+		40C387B600766DDFD6D54A16459C5FBB /* TTPromptKit */ = {
 			isa = PBXGroup;
 			children = (
-				1B8CC88AB99342F4031AFFC4AF3570C4 /* TTGuideHUD.h */,
-				46F8D44FACCA4338BE184D6D015FE3E5 /* TTGuideHUD.m */,
+				675F0966A30A35C88D06B85E85CB4FBD /* TTPromptKit.h */,
+				22259D94D86B4C46AA63A4E28A6A37C5 /* Pod */,
+				2B3A4D24F856238AE762642F1010D6C7 /* Support Files */,
+				68A6587782514359F2C64520DDEE0760 /* TTGuide */,
 			);
-			name = TTGuide;
+			name = TTPromptKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4685F04C7760C9EDD9E414135C1CC6B2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0E35DE3FFABE3FC6AB8CEE020BE4E919 /* MBProgressHUD.h */,
+				50335671A0341007D9AF235E348805CE /* MBProgressHUD.m */,
+				3BE946C6DCCAEB114E082E400B9082B3 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		50754C78BD5D2A484DBB430691C3200A /* Pods-TTPromptKit_Tests */ = {
@@ -275,86 +356,62 @@
 			path = "Target Support Files/Pods-TTPromptKit_Tests";
 			sourceTree = "<group>";
 		};
-		546CD40C12BD57979B60D32859126310 /* Support Files */ = {
+		68A6587782514359F2C64520DDEE0760 /* TTGuide */ = {
 			isa = PBXGroup;
 			children = (
-				4883BB76349ACE896D0708B77D4F28A8 /* Info.plist */,
-				3B93F6F8BA1A24B8493E439A2AC97606 /* MBProgressHUD.modulemap */,
-				9AB285AC73F2B6C7131C6F7EA32C3021 /* MBProgressHUD.xcconfig */,
-				84D28F551E84B72C33FEDA05DB8A99B6 /* MBProgressHUD-dummy.m */,
-				BCCCDC8771A6F7842EFCD14D294B0D1B /* MBProgressHUD-prefix.pch */,
-				19448286E3798326850DDA1E52B8F6D0 /* MBProgressHUD-umbrella.h */,
+				4A2CA90AA47F1AFDF044AB62E69E3AD5 /* TTGuideHUD.h */,
+				2D5A845A89A5D58F203F6895CE2CD271 /* TTGuideHUD.m */,
+			);
+			name = TTGuide;
+			sourceTree = "<group>";
+		};
+		7275904C4ABE96157324D73BEA780887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4685F04C7760C9EDD9E414135C1CC6B2 /* MBProgressHUD */,
+				A6D86DEBDDF942FCD777152DC2BC453C /* TTAlertKit */,
+				9E14F96D464818583982B315FD6A958A /* TTProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		735C40B9BB937B38D415A76EA3AB8DE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB4AC40085014D69B3D6662DD6142F /* Info.plist */,
+				B352877A51A6C12C21022035658A7B03 /* TTProgressHUD.modulemap */,
+				35B59C9AE694E800ADB67769485DE15D /* TTProgressHUD.xcconfig */,
+				053CC74A9C12A5FDDA851DE682299A76 /* TTProgressHUD-dummy.m */,
+				41C1AEC92005C5D3A7A1CCDBDC3D9D18 /* TTProgressHUD-prefix.pch */,
+				E426E0BE84A56E63C16A19DADDD80562 /* TTProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
+			path = "../Target Support Files/TTProgressHUD";
 			sourceTree = "<group>";
 		};
-		5EAE70A92055011E6C509D86FDEBE4AE /* iOS */ = {
+		768BCFD8FA4280DE3F4165B8BB23CC88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76AB2454366B3EE897BA942C29347454 /* CoreGraphics.framework */,
-				69476071E5DD5905E6EEA7F9964D7127 /* Foundation.framework */,
+				02D1181C21663A8E1A5567FA1FD2CFF4 /* MBProgressHUD.framework */,
+				454AA2008DE6655AFF1EA0AD8BD184B2 /* Pods_TTPromptKit_Example.framework */,
+				5413FB4E0F1C9F2FCEE62CC77CCED9CB /* Pods_TTPromptKit_Tests.framework */,
+				640C8247E5DC050E86AA0DB01504A0C1 /* TTAlertKit.framework */,
+				6A749EE5150E42CE9381A75165D797AD /* TTProgressHUD.framework */,
+				54C091B25B95DB53E95CD6E80E3F0336 /* TTPromptKit.framework */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		793C0673869D8FB61582681B050350CA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AF12868F61303189B3893BBC10041691 /* MBProgressHUD.framework */,
-				4EB2689DBF65746C0AF40D9B9652F3E4 /* TTAlertKit.framework */,
-				5EAE70A92055011E6C509D86FDEBE4AE /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7B25F4518FB764755919433FBEABEB0F /* TTPromptKit */ = {
-			isa = PBXGroup;
-			children = (
-				0762A0F0A8E986A36681E075A4A03A60 /* TTPromptKit.h */,
-				07B3AF0BCFCEBCBAD51B15D6F0643D98 /* Pod */,
-				FC4E8E37286ED6033668041E5A04C195 /* Support Files */,
-				4792F13E164B15B90041AA2AEF71E70E /* TTGuide */,
-				A711A88D4AC665C999E18ACFF3A19ED8 /* TTHUD */,
-			);
-			name = TTPromptKit;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A0743BC5B4FEE543DD3387A56280D07B /* Development Pods */,
-				793C0673869D8FB61582681B050350CA /* Frameworks */,
-				478E073E61AA0B0A70C4F278C0F8A7A4 /* Pods */,
-				131211ABC88F683CF9B6737E20FD879F /* Products */,
+				0FD7F020E81D7ED96933F47A24C0CBEC /* Development Pods */,
+				356253E1A7B65B38F060E422453F199A /* Frameworks */,
+				7275904C4ABE96157324D73BEA780887 /* Pods */,
+				768BCFD8FA4280DE3F4165B8BB23CC88 /* Products */,
 				937E4831E90199C9F71332C255D40705 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		884AC785DCECAE2B915BAF70F28EB896 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				02F88786BD31CA0A2262BF3E4ED95FE8 /* MBProgressHUD.h */,
-				A60D3EC23A70F274C3DAE291C3163F3A /* MBProgressHUD.m */,
-				546CD40C12BD57979B60D32859126310 /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		8B7E13609B8843D3E124B241326CADB9 /* TTAlertKit */ = {
-			isa = PBXGroup;
-			children = (
-				8208394D22285DED8F135C0F8F5068CB /* TTAlert.h */,
-				F0CE24C1C464F023B43FB303E897CE4E /* TTAlert.m */,
-				BB4715C0EAE42F0427E996395345AA92 /* TTAlertController.h */,
-				4F6716A4E4924A1D70692DD04F8B099D /* TTAlertController.m */,
-				12498D73911EB0FD20462D2F0A0E73DD /* Support Files */,
-			);
-			name = TTAlertKit;
-			path = TTAlertKit;
 			sourceTree = "<group>";
 		};
 		937E4831E90199C9F71332C255D40705 /* Targets Support Files */ = {
@@ -366,25 +423,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A0743BC5B4FEE543DD3387A56280D07B /* Development Pods */ = {
+		9E14F96D464818583982B315FD6A958A /* TTProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				7B25F4518FB764755919433FBEABEB0F /* TTPromptKit */,
+				2CA2DFD65CD8F9FF2AAD327CE5F90611 /* TTHUDController.h */,
+				4F2F778835C8A8FE59F283272395B75D /* TTHUDController.m */,
+				DF9F4D6B89C2868ED5B532196F2EAF1E /* TTProgressHUD.h */,
+				8BB5C1B308E4CCD4427BAABBEFA58D26 /* UIView+THUD.h */,
+				4E8C5C13BF6C386F39D24262F1B6D6DC /* UIView+THUD.m */,
+				DFE986AF3F8A7B9CA60124BCFF2208DA /* UIViewController+THUD.h */,
+				AEC88B82173BE5938EC71922FDB58E5C /* UIViewController+THUD.m */,
+				735C40B9BB937B38D415A76EA3AB8DE6 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = TTProgressHUD;
+			path = TTProgressHUD;
 			sourceTree = "<group>";
 		};
-		A711A88D4AC665C999E18ACFF3A19ED8 /* TTHUD */ = {
+		A2666C0E9E2312E7B8222062E6ACD3C9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE9409523B12A67EA0FCBD08E1544550 /* TTHUDController.h */,
-				0A4D777E96D02E305EDFFD4FECBD877B /* TTHUDController.m */,
-				3C0643CAEDA1C87A6BFB24D0E54923E1 /* UIView+THUD.h */,
-				73F6654C3B2A22EAE00C1810F3A22F1D /* UIView+THUD.m */,
-				D1AA2D1121ECFA7124A1E1933506B19A /* UIViewController+THUD.h */,
-				210F8F79355CE7837CD385202C5F817D /* UIViewController+THUD.m */,
+				D6B685D41CD050490DACFBA32974E9EE /* Info.plist */,
+				11265A3A1A9FC7D72033AF70564A5F03 /* TTAlertKit.modulemap */,
+				803F5F91979A95E1B8722ADA12274067 /* TTAlertKit.xcconfig */,
+				2B73917B3883D4FB349A98F900E85682 /* TTAlertKit-dummy.m */,
+				0E3ED639D960C48E7ED2B8B6B7E88A9F /* TTAlertKit-prefix.pch */,
+				51123B7DBC187DA54CB592FBEB39E3E9 /* TTAlertKit-umbrella.h */,
 			);
-			name = TTHUD;
+			name = "Support Files";
+			path = "../Target Support Files/TTAlertKit";
+			sourceTree = "<group>";
+		};
+		A6D86DEBDDF942FCD777152DC2BC453C /* TTAlertKit */ = {
+			isa = PBXGroup;
+			children = (
+				63A3A8E81C04060882C8975F76427698 /* TTAlert.h */,
+				31B18FD063B130A73271F2D520D6DCED /* TTAlert.m */,
+				6E166D502ECA581D1FE9F1E02B59E9AE /* TTAlertController.h */,
+				1CA07FA6316B2BFFDC2085FC778EB4DF /* TTAlertController.m */,
+				A2666C0E9E2312E7B8222062E6ACD3C9 /* Support Files */,
+			);
+			name = TTAlertKit;
+			path = TTAlertKit;
 			sourceTree = "<group>";
 		};
 		BD5C2D8BCA99F80ACF5A8F27A298B14E /* Pods-TTPromptKit_Example */ = {
@@ -405,28 +484,24 @@
 			path = "Target Support Files/Pods-TTPromptKit_Example";
 			sourceTree = "<group>";
 		};
-		FC4E8E37286ED6033668041E5A04C195 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DACC55B4C2AF4FB4106D0230BB31D0F3 /* Info.plist */,
-				36F3509367BC296AB897B5C204363994 /* TTPromptKit.modulemap */,
-				0050E0C4831A98E06AE28B2B6BFE59FB /* TTPromptKit.xcconfig */,
-				CC4498D7A49A83A6CE40950CBC181E9E /* TTPromptKit-dummy.m */,
-				EA6AF69B502BD7F342C54FB72398FC27 /* TTPromptKit-prefix.pch */,
-				93F18C9EB4CABFDB03256268118DC151 /* TTPromptKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TTPromptKit";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		91536E6F82D306DD333C28A6281B7792 /* Headers */ = {
+		44F993AB0A6631E713931F6CB5214F98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53478DC9D43554EC6161239CC456F968 /* Pods-TTPromptKit_Example-umbrella.h in Headers */,
+				6DB1A595462D8E984F5C537771101EAC /* Pods-TTPromptKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7E53DB34D91A93C9E5E4402F59A275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52D2405E92B4233C8D86806C33DC052 /* TTGuideHUD.h in Headers */,
+				70FE05C28A647FE0D9D8CC1B6EB0DD78 /* TTPromptKit-umbrella.h in Headers */,
+				D6FDCBA4FED0747EE958248649052043 /* TTPromptKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +514,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D909BB19589C942ABFE110E0C3F103F3 /* Headers */ = {
+		D1606A14999189EAD1A7251EBACC8C81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D9BD424878732492CEF390F50F29B5 /* TTAlert.h in Headers */,
-				5583982BA033EE4C8681868A16EF5ADB /* TTAlertController.h in Headers */,
-				2AAA0BAF0CB5DFCB040B340EDFDFC2D3 /* TTAlertKit-umbrella.h in Headers */,
+				4561CB4A41AF42F5526A8C55F28C5E6A /* TTHUDController.h in Headers */,
+				FCFE76AB1C1F27CBCDE4EE9DC5FAA5F8 /* TTProgressHUD-umbrella.h in Headers */,
+				8B5EE423D1215F49333D5412B9878A27 /* TTProgressHUD.h in Headers */,
+				9D831D041CEFC784A27229829B4ABB86 /* UIView+THUD.h in Headers */,
+				64DF24B4B2EE22A0AC3A249E6B7EEFEF /* UIViewController+THUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,59 +534,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF8827147EDFCC52A229AFC7B5163E06 /* Headers */ = {
+		F5D687D9C32C408E18FA925CEACD00EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBB3DA93B43B887FCED32C5418F4B18 /* TTGuideHUD.h in Headers */,
-				DAC7D2B54C115246B147552137C7AA42 /* TTHUDController.h in Headers */,
-				CDBBF4DB171572A421120DB778417F65 /* TTPromptKit-umbrella.h in Headers */,
-				BBA1160DE58AB5088BDD1AB7ED9C2EF4 /* TTPromptKit.h in Headers */,
-				DE0F211CD8BC33FE9367AFD5836FB882 /* UIView+THUD.h in Headers */,
-				493BE6F0602D77403838D4200CADE6FB /* UIViewController+THUD.h in Headers */,
+				466055864E35B888BBEE8C74883D2B98 /* TTAlert.h in Headers */,
+				96D0ADCB3BD05D167D3F015BB5D95AC2 /* TTAlertController.h in Headers */,
+				53FF30AC60841405821D7D077AFAF66F /* TTAlertKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3F3E550CD6B2D1F2F109D8BA37D5A80B /* TTPromptKit */ = {
+		277CB9D882BC775B61C5DFD87D0CCB75 /* TTProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2F19B81F37CB68ED5BF5DEF582BA46C /* Build configuration list for PBXNativeTarget "TTPromptKit" */;
+			buildConfigurationList = 8BF5C8195EC8C4D46D6AE863C4E24B90 /* Build configuration list for PBXNativeTarget "TTProgressHUD" */;
 			buildPhases = (
-				F09FD24A2DC9C412B181068091858706 /* Sources */,
-				0BE1703FB410911298DB7F6C4C581314 /* Frameworks */,
-				EF8827147EDFCC52A229AFC7B5163E06 /* Headers */,
+				CCB7F7E7D903947C401231E2D942E4F3 /* Sources */,
+				768D1A8015745AD3057B26C5CED177D7 /* Frameworks */,
+				D1606A14999189EAD1A7251EBACC8C81 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D33E8B68A6D2DF6C38B881BA9D313C75 /* PBXTargetDependency */,
-				6AA4BFB3E1C21B849269D4B7B3A2BDA0 /* PBXTargetDependency */,
+				3F67A839F3692BF4C87415E291789B10 /* PBXTargetDependency */,
 			);
-			name = TTPromptKit;
-			productName = TTPromptKit;
-			productReference = 200DB9B15D9CA014DF38345EAB1AFD7D /* TTPromptKit.framework */;
+			name = TTProgressHUD;
+			productName = TTProgressHUD;
+			productReference = 6A749EE5150E42CE9381A75165D797AD /* TTProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		56963AD0D4AA7EF4D06C67402D1E1685 /* Pods-TTPromptKit_Example */ = {
+		3BA3BBB6421084F239A16EAD05EA09C7 /* Pods-TTPromptKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3233F12A31D2A19668510286562B741 /* Build configuration list for PBXNativeTarget "Pods-TTPromptKit_Example" */;
+			buildConfigurationList = 81C64FC703684505991B636971BC8A4E /* Build configuration list for PBXNativeTarget "Pods-TTPromptKit_Example" */;
 			buildPhases = (
-				35E840D942A8776CD89F050F494DC83F /* Sources */,
-				D30F89720CB1EFC36008A65E829C29F4 /* Frameworks */,
-				91536E6F82D306DD333C28A6281B7792 /* Headers */,
+				5F6B1C819FF02F428C4AE42DB999D683 /* Sources */,
+				965C2485F54C93320B4EF10E7B4CF248 /* Frameworks */,
+				44F993AB0A6631E713931F6CB5214F98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2B60AF92C2F224B172EC4CC68D94FE0F /* PBXTargetDependency */,
-				91EF2BEFE3C2138811183B3C35BD2A64 /* PBXTargetDependency */,
-				9DDC3EB341B1E20083BD5C06F5195C1E /* PBXTargetDependency */,
+				EEBBA148CADF8C4C5AAF1B86288A32CE /* PBXTargetDependency */,
+				101CC5AAEF41F9154A82CBB1B3DE6714 /* PBXTargetDependency */,
+				98E0A61E3DDB8E4DE29AAA5B8A83E03F /* PBXTargetDependency */,
+				4B9B917DC2B1563876623F4C6F0EBEC8 /* PBXTargetDependency */,
 			);
 			name = "Pods-TTPromptKit_Example";
 			productName = "Pods-TTPromptKit_Example";
-			productReference = BCE3F63C660004913AAE5A1D937B7F7F /* Pods_TTPromptKit_Example.framework */;
+			productReference = 454AA2008DE6655AFF1EA0AD8BD184B2 /* Pods_TTPromptKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AF17DA1512E8D95EFCF9714E2F191EA /* TTAlertKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D0D722F7A126A37B43F3C018E311CA /* Build configuration list for PBXNativeTarget "TTAlertKit" */;
+			buildPhases = (
+				1F1859600E1072B46D97490DF53CEC7A /* Sources */,
+				F7E00F64DF582C5A108C9AC626E6C30B /* Frameworks */,
+				F5D687D9C32C408E18FA925CEACD00EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTAlertKit;
+			productName = TTAlertKit;
+			productReference = 640C8247E5DC050E86AA0DB01504A0C1 /* TTAlertKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */ = {
@@ -526,24 +617,27 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 2139E08F823064F33FD32408F9559FD3 /* MBProgressHUD.framework */;
+			productReference = 02D1181C21663A8E1A5567FA1FD2CFF4 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		74DB5180D5FD48C128FFEDB4D112B56F /* TTAlertKit */ = {
+		829B6153F279A8D1C05E0F7EB3C9EEFF /* TTPromptKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F911C827EA5EF19DD3A01F725101A38A /* Build configuration list for PBXNativeTarget "TTAlertKit" */;
+			buildConfigurationList = FEEE44BDABCB9DD3F97029A535EAF787 /* Build configuration list for PBXNativeTarget "TTPromptKit" */;
 			buildPhases = (
-				05B174B71691BA9283D1C2356329A0FB /* Sources */,
-				C8E72ADDD29A6EF520981A94655BF799 /* Frameworks */,
-				D909BB19589C942ABFE110E0C3F103F3 /* Headers */,
+				90D9283C52DF40553C07B14A7754C6D6 /* Sources */,
+				C8228070CCCE5F39C6CF8BE63346CF68 /* Frameworks */,
+				AF7E53DB34D91A93C9E5E4402F59A275 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F9DDF0A0D2DB7D080147E9418A607443 /* PBXTargetDependency */,
+				B171391EEE4599FF8B56003947F22F5D /* PBXTargetDependency */,
+				073B016B1E4E157D9C074296A64E24F4 /* PBXTargetDependency */,
 			);
-			name = TTAlertKit;
-			productName = TTAlertKit;
-			productReference = A265CAB4BB2E7A8D3F1E6EE73FEDE8E0 /* TTAlertKit.framework */;
+			name = TTPromptKit;
+			productName = TTPromptKit;
+			productReference = 54C091B25B95DB53E95CD6E80E3F0336 /* TTPromptKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E519141882F04D5F8889D93918F01026 /* Pods-TTPromptKit_Tests */ = {
@@ -561,7 +655,7 @@
 			);
 			name = "Pods-TTPromptKit_Tests";
 			productName = "Pods-TTPromptKit_Tests";
-			productReference = 29AF4DA6AE7A7ECFA2F790FDE1C41C50 /* Pods_TTPromptKit_Tests.framework */;
+			productReference = 5413FB4E0F1C9F2FCEE62CC77CCED9CB /* Pods_TTPromptKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -581,35 +675,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 131211ABC88F683CF9B6737E20FD879F /* Products */;
+			productRefGroup = 768BCFD8FA4280DE3F4165B8BB23CC88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */,
-				56963AD0D4AA7EF4D06C67402D1E1685 /* Pods-TTPromptKit_Example */,
+				3BA3BBB6421084F239A16EAD05EA09C7 /* Pods-TTPromptKit_Example */,
 				E519141882F04D5F8889D93918F01026 /* Pods-TTPromptKit_Tests */,
-				74DB5180D5FD48C128FFEDB4D112B56F /* TTAlertKit */,
-				3F3E550CD6B2D1F2F109D8BA37D5A80B /* TTPromptKit */,
+				6AF17DA1512E8D95EFCF9714E2F191EA /* TTAlertKit */,
+				277CB9D882BC775B61C5DFD87D0CCB75 /* TTProgressHUD */,
+				829B6153F279A8D1C05E0F7EB3C9EEFF /* TTPromptKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05B174B71691BA9283D1C2356329A0FB /* Sources */ = {
+		1F1859600E1072B46D97490DF53CEC7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467F403533CB969BA38C34701C50EAE6 /* TTAlert.m in Sources */,
-				2595948BA1F341B17660D49BB3EF94FE /* TTAlertController.m in Sources */,
-				1647F63F77AF47E3784FB812C46FCF2F /* TTAlertKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35E840D942A8776CD89F050F494DC83F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				114EBCBB296ACA6236F32C702C688C85 /* Pods-TTPromptKit_Example-dummy.m in Sources */,
+				F980C5651420D1598F64DBD1D12A32B4 /* TTAlert.m in Sources */,
+				97D49A1CCA06E5701151F026F75415F0 /* TTAlertController.m in Sources */,
+				7CE004A1ECACA8722029454D4FE0D998 /* TTAlertKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +709,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F6B1C819FF02F428C4AE42DB999D683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B443F93FA253732CB88BE93C06408D4 /* Pods-TTPromptKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D9283C52DF40553C07B14A7754C6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920E7CAE59FAA30E29D9528BBA62B37A /* TTGuideHUD.m in Sources */,
+				5B713BE04FB2DD799031F886868EC1B6 /* TTPromptKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADF6C034989725F11CE7E1F7F60EDB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,63 +734,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09FD24A2DC9C412B181068091858706 /* Sources */ = {
+		CCB7F7E7D903947C401231E2D942E4F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F2A5899D32800EA9E23B8D083BCE35 /* TTGuideHUD.m in Sources */,
-				09C4842D244A02FF12AA0A60E080BEE1 /* TTHUDController.m in Sources */,
-				C79F1DEC35460B378520BFDF6C9CEF58 /* TTPromptKit-dummy.m in Sources */,
-				BF05BF58C24CFCA369E43B6DB16F3C2A /* UIView+THUD.m in Sources */,
-				056363D6974F685C1B38A8891A3950B0 /* UIViewController+THUD.m in Sources */,
+				26C5232C36072B7B2F74BA53DD9FC007 /* TTHUDController.m in Sources */,
+				3B5D279E107960DECB0648BAFEA417FF /* TTProgressHUD-dummy.m in Sources */,
+				9D0CFA56989289D2598B732DEB42DAC5 /* UIView+THUD.m in Sources */,
+				13406649FAE2D201CB408E1D20D0D659 /* UIViewController+THUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B60AF92C2F224B172EC4CC68D94FE0F /* PBXTargetDependency */ = {
+		073B016B1E4E157D9C074296A64E24F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
-			targetProxy = B20770166E3DB1D7088E8C0CC4CB63B3 /* PBXContainerItemProxy */;
+			name = TTProgressHUD;
+			target = 277CB9D882BC775B61C5DFD87D0CCB75 /* TTProgressHUD */;
+			targetProxy = 1D8411FFDD0847287AC4E5A1FF5DAB1A /* PBXContainerItemProxy */;
+		};
+		101CC5AAEF41F9154A82CBB1B3DE6714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTAlertKit;
+			target = 6AF17DA1512E8D95EFCF9714E2F191EA /* TTAlertKit */;
+			targetProxy = 537903BBAD8C8919A230AD9EB19AD647 /* PBXContainerItemProxy */;
 		};
 		3DCCE6C44D159F132D638E98C53A4AF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TTPromptKit_Example";
-			target = 56963AD0D4AA7EF4D06C67402D1E1685 /* Pods-TTPromptKit_Example */;
+			target = 3BA3BBB6421084F239A16EAD05EA09C7 /* Pods-TTPromptKit_Example */;
 			targetProxy = 6AB591AF37F4CFA2A7E0C0FE5E3A8F9D /* PBXContainerItemProxy */;
 		};
-		6AA4BFB3E1C21B849269D4B7B3A2BDA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTAlertKit;
-			target = 74DB5180D5FD48C128FFEDB4D112B56F /* TTAlertKit */;
-			targetProxy = 5602F60B7BF5D4E90D9A26C2A6FC6504 /* PBXContainerItemProxy */;
-		};
-		91EF2BEFE3C2138811183B3C35BD2A64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTAlertKit;
-			target = 74DB5180D5FD48C128FFEDB4D112B56F /* TTAlertKit */;
-			targetProxy = 3BF5E599BDD22FCE56B570D1880E3C51 /* PBXContainerItemProxy */;
-		};
-		9DDC3EB341B1E20083BD5C06F5195C1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTPromptKit;
-			target = 3F3E550CD6B2D1F2F109D8BA37D5A80B /* TTPromptKit */;
-			targetProxy = 23170E141846BE8DB3930CDC096D0333 /* PBXContainerItemProxy */;
-		};
-		D33E8B68A6D2DF6C38B881BA9D313C75 /* PBXTargetDependency */ = {
+		3F67A839F3692BF4C87415E291789B10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
-			targetProxy = A3CBEC40C43976EC36F1ABA429D324C9 /* PBXContainerItemProxy */;
+			targetProxy = B8C31A03472BF8E3777FB121405B9A90 /* PBXContainerItemProxy */;
+		};
+		4B9B917DC2B1563876623F4C6F0EBEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTPromptKit;
+			target = 829B6153F279A8D1C05E0F7EB3C9EEFF /* TTPromptKit */;
+			targetProxy = 724A21C9CC8BF361CD17BDAD59C3C893 /* PBXContainerItemProxy */;
+		};
+		98E0A61E3DDB8E4DE29AAA5B8A83E03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTProgressHUD;
+			target = 277CB9D882BC775B61C5DFD87D0CCB75 /* TTProgressHUD */;
+			targetProxy = 2F72DB301DE5815218BB9849DBD74CAB /* PBXContainerItemProxy */;
+		};
+		B171391EEE4599FF8B56003947F22F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTAlertKit;
+			target = 6AF17DA1512E8D95EFCF9714E2F191EA /* TTAlertKit */;
+			targetProxy = D2297E217FE59F3B4DF49EE17001A10E /* PBXContainerItemProxy */;
+		};
+		EEBBA148CADF8C4C5AAF1B86288A32CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
+			targetProxy = 4A7A5D91889075C6B39823C0EB62654D /* PBXContainerItemProxy */;
+		};
+		F9DDF0A0D2DB7D080147E9418A607443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
+			targetProxy = F547A1044B60FF68F1536B4BC85CE96F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06E345161E1A38A4DE8254B7725C0E97 /* Release */ = {
+		056426E00DB81C94512DAD95DC753AD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0050E0C4831A98E06AE28B2B6BFE59FB /* TTPromptKit.xcconfig */;
+			baseConfigurationReference = 35B59C9AE694E800ADB67769485DE15D /* TTProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -697,14 +818,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTPromptKit/TTPromptKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTPromptKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TTProgressHUD/TTProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTPromptKit/TTPromptKit.modulemap";
-				PRODUCT_MODULE_NAME = TTPromptKit;
-				PRODUCT_NAME = TTPromptKit;
+				MODULEMAP_FILE = "Target Support Files/TTProgressHUD/TTProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = TTProgressHUD;
+				PRODUCT_NAME = TTProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -715,11 +836,10 @@
 			};
 			name = Release;
 		};
-		07F191FE905F6274610914812B812B1F /* Release */ = {
+		06AC72CB9DD4E931D3FA0E4B2EE7898D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92502509A1F2A572FB9BA126F3F9AC8 /* Pods-TTPromptKit_Example.release.xcconfig */;
+			baseConfigurationReference = 803F5F91979A95E1B8722ADA12274067 /* TTAlertKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -729,19 +849,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TTPromptKit_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TTAlertKit/TTAlertKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTAlertKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TTPromptKit_Example/Pods-TTPromptKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TTAlertKit/TTAlertKit.modulemap";
+				PRODUCT_MODULE_NAME = TTAlertKit;
+				PRODUCT_NAME = TTAlertKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -812,6 +930,36 @@
 			};
 			name = Debug;
 		};
+		23E262BCAB7C01ECAA959AEBBD70456A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D741F8884F325C3A2D30237BB1642000 /* TTPromptKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTPromptKit/TTPromptKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTPromptKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTPromptKit/TTPromptKit.modulemap";
+				PRODUCT_MODULE_NAME = TTPromptKit;
+				PRODUCT_NAME = TTPromptKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2FC89431B4E7CDD3714AD3C8E6853F2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A393449A39E0BB65F9920AC0A6F61229 /* Pods-TTPromptKit_Tests.debug.xcconfig */;
@@ -832,6 +980,70 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTPromptKit_Tests/Pods-TTPromptKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39564E09D6E08020F7957D69DA3FE9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D741F8884F325C3A2D30237BB1642000 /* TTPromptKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTPromptKit/TTPromptKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTPromptKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTPromptKit/TTPromptKit.modulemap";
+				PRODUCT_MODULE_NAME = TTPromptKit;
+				PRODUCT_NAME = TTPromptKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F52C486CA79500B5BFBC5E840F5C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5368BAC5E29B9B6FFE42231C3EF87BEC /* Pods-TTPromptKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTPromptKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTPromptKit_Example/Pods-TTPromptKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -879,11 +1091,10 @@
 			};
 			name = Release;
 		};
-		449F57C3183A0F906E2A6E8463DDACAF /* Debug */ = {
+		82260D8D18E3781F32A35C6C4863B594 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5368BAC5E29B9B6FFE42231C3EF87BEC /* Pods-TTPromptKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 35B59C9AE694E800ADB67769485DE15D /* TTProgressHUD.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -893,59 +1104,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TTPromptKit_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TTProgressHUD/TTProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TTPromptKit_Example/Pods-TTPromptKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TTProgressHUD/TTProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = TTProgressHUD;
+				PRODUCT_NAME = TTProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		59F01E4CCBB27604EFDB16B7ADAEAED3 /* Release */ = {
+		8A9B916821AC676823332582F96E189A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC24951DB63EAED61CA4577889FDD12 /* TTAlertKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTAlertKit/TTAlertKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTAlertKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTAlertKit/TTAlertKit.modulemap";
-				PRODUCT_MODULE_NAME = TTAlertKit;
-				PRODUCT_NAME = TTAlertKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B2897CAA5D5A8502B06BBEBAA15841D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC24951DB63EAED61CA4577889FDD12 /* TTAlertKit.xcconfig */;
+			baseConfigurationReference = 803F5F91979A95E1B8722ADA12274067 /* TTAlertKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -975,7 +1153,7 @@
 		};
 		CF7020C6E9C00CE59577DC6F9E4255AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AB285AC73F2B6C7131C6F7EA32C3021 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = A4D80AD731BDE3EF894EA7A3E0B5F66C /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1003,10 +1181,11 @@
 			};
 			name = Debug;
 		};
-		E35E2AB4E2382B0F3334083783E59A72 /* Debug */ = {
+		D35EA9BE299F89921FF64C1242A9ECCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0050E0C4831A98E06AE28B2B6BFE59FB /* TTPromptKit.xcconfig */;
+			baseConfigurationReference = C92502509A1F2A572FB9BA126F3F9AC8 /* Pods-TTPromptKit_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1016,26 +1195,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTPromptKit/TTPromptKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTPromptKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTPromptKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTPromptKit/TTPromptKit.modulemap";
-				PRODUCT_MODULE_NAME = TTPromptKit;
-				PRODUCT_NAME = TTPromptKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTPromptKit_Example/Pods-TTPromptKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F147DE2EB0DE030E54C6E63C35F621A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AB285AC73F2B6C7131C6F7EA32C3021 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = A4D80AD731BDE3EF894EA7A3E0B5F66C /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1152,29 +1334,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3233F12A31D2A19668510286562B741 /* Build configuration list for PBXNativeTarget "Pods-TTPromptKit_Example" */ = {
+		81C64FC703684505991B636971BC8A4E /* Build configuration list for PBXNativeTarget "Pods-TTPromptKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449F57C3183A0F906E2A6E8463DDACAF /* Debug */,
-				07F191FE905F6274610914812B812B1F /* Release */,
+				3F52C486CA79500B5BFBC5E840F5C914 /* Debug */,
+				D35EA9BE299F89921FF64C1242A9ECCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2F19B81F37CB68ED5BF5DEF582BA46C /* Build configuration list for PBXNativeTarget "TTPromptKit" */ = {
+		86D0D722F7A126A37B43F3C018E311CA /* Build configuration list for PBXNativeTarget "TTAlertKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E35E2AB4E2382B0F3334083783E59A72 /* Debug */,
-				06E345161E1A38A4DE8254B7725C0E97 /* Release */,
+				8A9B916821AC676823332582F96E189A /* Debug */,
+				06AC72CB9DD4E931D3FA0E4B2EE7898D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F911C827EA5EF19DD3A01F725101A38A /* Build configuration list for PBXNativeTarget "TTAlertKit" */ = {
+		8BF5C8195EC8C4D46D6AE863C4E24B90 /* Build configuration list for PBXNativeTarget "TTProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B2897CAA5D5A8502B06BBEBAA15841D /* Debug */,
-				59F01E4CCBB27604EFDB16B7ADAEAED3 /* Release */,
+				82260D8D18E3781F32A35C6C4863B594 /* Debug */,
+				056426E00DB81C94512DAD95DC753AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEE44BDABCB9DD3F97029A535EAF787 /* Build configuration list for PBXNativeTarget "TTPromptKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E262BCAB7C01ECAA959AEBBD70456A /* Debug */,
+				39564E09D6E08020F7957D69DA3FE9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
