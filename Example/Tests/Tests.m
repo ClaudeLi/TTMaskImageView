@@ -1,8 +1,8 @@
 //
-//  TTPromptKitTests.m
-//  TTPromptKitTests
+//  TTMaskImageViewTests.m
+//  TTMaskImageViewTests
 //
-//  Created by claudeli@yeah.net on 08/28/2018.
+//  Created by claudeli@yeah.net on 10/11/2018.
 //  Copyright (c) 2018 claudeli@yeah.net. All rights reserved.
 //
 

@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'TTPromptKit_Example' do
-  pod 'TTPromptKit', :path => '../'
+target 'TTMaskImageView_Example' do
+  pod 'TTMaskImageView', :path => '../'
 
-  target 'TTPromptKit_Tests' do
+  target 'TTMaskImageView_Tests' do
     inherit! :search_paths
 
     
