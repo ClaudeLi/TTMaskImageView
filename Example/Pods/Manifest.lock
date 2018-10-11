@@ -1,5 +1,5 @@
 PODS:
-  - TTMaskImageView (0.1.0)
+  - TTMaskImageView (1.0.0)
 
 DEPENDENCIES:
   - TTMaskImageView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTMaskImageView: 650716e8ea1b1b2a0a4f109d34093f60db16695c
+  TTMaskImageView: 0d42c9346f03b8f89d648a1168e138d9771faf67
 
 PODFILE CHECKSUM: c8e646f908311206520eac0702225e3dd02ab65c
 

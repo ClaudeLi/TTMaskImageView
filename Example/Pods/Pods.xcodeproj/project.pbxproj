@@ -12,11 +12,11 @@
 		2D1C203DDD46C7496FAD51C7E2645100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		309FDAF2F51100BBDEA9E915C5B5AC98 /* Pods-TTMaskImageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BDEC1DDB36E4F4418E0EDC793CC84B /* Pods-TTMaskImageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3883A45DAD518BDC33A4D9E55678823E /* Pods-TTMaskImageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5723749789EE78B4DB67842897280A /* Pods-TTMaskImageView_Tests-dummy.m */; };
+		45AFDE60A719E9BD62AAF078BB87DC24 /* TTMaskImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD99C57B2EEF8EB3A8749AEEB2921ED /* TTMaskImageView-dummy.m */; };
 		47C5B3939AC9F9449075297C752694CF /* Pods-TTMaskImageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A219C2662C1F84FB309C27AC9951021 /* Pods-TTMaskImageView_Example-dummy.m */; };
-		5D22DD75E1574729337E40ADA07F4523 /* TTMaskImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDFDD9E16DEB5ED6276B14D8CB4196 /* TTMaskImageView.m */; };
-		7025069442A1F841032C71E7DD673D5E /* TTMaskImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4513C72DB5BF3BDA3F94277D0D86E511 /* TTMaskImageView-dummy.m */; };
-		A5F5D00BF51C7CAFEEFC4980C2F6E433 /* TTMaskImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2F2266AAA90551FBFB36C8706BEC /* TTMaskImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7426E6EFA0B52BAD84BFD20A7297BF6 /* TTMaskImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5D54CB96A832E06FCBA105D08AAE5D /* TTMaskImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B72C04BAEB5308475D20571060839D /* TTMaskImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C58151B2D1DA5CD37E4F7421F39F6B /* TTMaskImageView.m */; };
+		D214A193D8AE3D56B17B2F87EB0152FE /* TTMaskImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E990DF6DFB72A4E00DDA1B8D18561BE /* TTMaskImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED5C931316B26A1CBE07BCC54C1BDA01 /* TTMaskImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEF13AB7BDE59D3C16C420C90EE7C16 /* TTMaskImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F93BB9AF9B141344FF02FB0182A83329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,38 +40,38 @@
 /* Begin PBXFileReference section */
 		0D3640AC826F59129AD6247D500EDB13 /* Pods-TTMaskImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMaskImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1137C2B59D67FB0E1FBF6EAA19BCA8F8 /* Pods-TTMaskImageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTMaskImageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1161B80D6A7BA6B9E28E10A61136FA25 /* TTMaskImageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TTMaskImageView.podspec; sourceTree = "<group>"; };
-		1B5D54CB96A832E06FCBA105D08AAE5D /* TTMaskImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMaskImageView-umbrella.h"; sourceTree = "<group>"; };
+		24C58151B2D1DA5CD37E4F7421F39F6B /* TTMaskImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTMaskImageView.m; path = TTMaskImageView/Classes/TTMaskImageView.m; sourceTree = "<group>"; };
+		28080CA70E090B9F531F86B3C708CC1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B23951A4D3CAC3B53F817BBA25B9510 /* Pods-TTMaskImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMaskImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D5723749789EE78B4DB67842897280A /* Pods-TTMaskImageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTMaskImageView_Tests-dummy.m"; sourceTree = "<group>"; };
 		3463759FC258814D10DAD31F765CED75 /* Pods-TTMaskImageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTMaskImageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		404A1FD1931B3929BFD243C17779A5EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4513C72DB5BF3BDA3F94277D0D86E511 /* TTMaskImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTMaskImageView-dummy.m"; sourceTree = "<group>"; };
-		4ADC26EAD23CAFF8B958882812F0FDD8 /* TTMaskImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMaskImageView-prefix.pch"; sourceTree = "<group>"; };
-		4B96C98F9A0C333AD760420BD2BF0259 /* TTMaskImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTMaskImageView.modulemap; sourceTree = "<group>"; };
-		558B2F2266AAA90551FBFB36C8706BEC /* TTMaskImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTMaskImageView.h; path = TTMaskImageView/Classes/TTMaskImageView.h; sourceTree = "<group>"; };
+		3D8DD255DA6F279333AA8A825C82A343 /* TTMaskImageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTMaskImageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A219C2662C1F84FB309C27AC9951021 /* Pods-TTMaskImageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTMaskImageView_Example-dummy.m"; sourceTree = "<group>"; };
-		6301F1B2260A8CAE246EBBFCE042B6C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		67136C4F72BE06480FDC8EF03760210D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C677AC0A66F380743C6D31100D53E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6DD99C57B2EEF8EB3A8749AEEB2921ED /* TTMaskImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTMaskImageView-dummy.m"; sourceTree = "<group>"; };
 		7362A4C93A8DA6A6F573099A3B60D164 /* Pods-TTMaskImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMaskImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73BBBDC4252F4B77EC727C252ACE8BF6 /* Pods-TTMaskImageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMaskImageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7ADDFDD9E16DEB5ED6276B14D8CB4196 /* TTMaskImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTMaskImageView.m; path = TTMaskImageView/Classes/TTMaskImageView.m; sourceTree = "<group>"; };
 		7E553C69C4C506564B0ED1102A9363B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F0277CA4DEA77B83D13952A2085D6F4 /* Pods_TTMaskImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTMaskImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB5CC95834A4D4F8A3CD3072968E933 /* TTMaskImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTMaskImageView.xcconfig; sourceTree = "<group>"; };
+		7F0277CA4DEA77B83D13952A2085D6F4 /* Pods_TTMaskImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTMaskImageView_Tests.framework; path = "Pods-TTMaskImageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BDEC1DDB36E4F4418E0EDC793CC84B /* Pods-TTMaskImageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMaskImageView_Example-umbrella.h"; sourceTree = "<group>"; };
 		93278F9A255747957072DFEA91A4D002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96747A4D83D59EBCBA7E5DD4D1E09983 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9896B7BCD0938C7D2CA8B2441289F953 /* Pods-TTMaskImageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMaskImageView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9E990DF6DFB72A4E00DDA1B8D18561BE /* TTMaskImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTMaskImageView.h; path = TTMaskImageView/Classes/TTMaskImageView.h; sourceTree = "<group>"; };
 		A164E5C437A80ABEB028C4FE102BD286 /* Pods-TTMaskImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMaskImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5CD919B43912977210AD92E06650DBF /* TTMaskImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTMaskImageView.xcconfig; sourceTree = "<group>"; };
-		B9B26687637F86809FF431A81627BA17 /* Pods_TTMaskImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTMaskImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B26687637F86809FF431A81627BA17 /* Pods_TTMaskImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTMaskImageView_Example.framework; path = "Pods-TTMaskImageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE60BECD78F3411EF341FEE3A9E401CC /* Pods-TTMaskImageView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMaskImageView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CD9C53FF80405343CB382B502C4E0357 /* Pods-TTMaskImageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTMaskImageView_Example.modulemap"; sourceTree = "<group>"; };
+		D1C61F195D0878A64478196E3964DE32 /* TTMaskImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTMaskImageView.modulemap; sourceTree = "<group>"; };
+		D4855A9253AF3253CE4EBB1F31CD92A1 /* TTMaskImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMaskImageView-prefix.pch"; sourceTree = "<group>"; };
 		E2D666E6C3CDAAB2E36C073340FA0AFE /* Pods-TTMaskImageView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMaskImageView_Tests-resources.sh"; sourceTree = "<group>"; };
 		E867DFE509A703939F7053BBD4554737 /* Pods-TTMaskImageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTMaskImageView_Tests.modulemap"; sourceTree = "<group>"; };
 		E86FCE2794990C3F2D9F729E510D9BE3 /* Pods-TTMaskImageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMaskImageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E95FBBCF6DE3801D65E54FDB472706F9 /* TTMaskImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTMaskImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95FBBCF6DE3801D65E54FDB472706F9 /* TTMaskImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTMaskImageView.framework; path = TTMaskImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEF13AB7BDE59D3C16C420C90EE7C16 /* TTMaskImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMaskImageView-umbrella.h"; sourceTree = "<group>"; };
 		F6A6217974B019F0581B6986B3105E4A /* Pods-TTMaskImageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMaskImageView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FBBFAA95BF2F257E7A15340DB8E0778E /* Pods-TTMaskImageView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMaskImageView_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,12 +114,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1682CA6E8051B0FEDFF1DACBF5B3D293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28080CA70E090B9F531F86B3C708CC1E /* Info.plist */,
+				D1C61F195D0878A64478196E3964DE32 /* TTMaskImageView.modulemap */,
+				7EB5CC95834A4D4F8A3CD3072968E933 /* TTMaskImageView.xcconfig */,
+				6DD99C57B2EEF8EB3A8749AEEB2921ED /* TTMaskImageView-dummy.m */,
+				D4855A9253AF3253CE4EBB1F31CD92A1 /* TTMaskImageView-prefix.pch */,
+				EAEF13AB7BDE59D3C16C420C90EE7C16 /* TTMaskImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTMaskImageView";
+			sourceTree = "<group>";
+		};
 		1EA634E2910D9FCFE095EC0D309246F9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E289DF6DB96E096D8791054555AAF72C /* TTMaskImageView */,
+				2CAF6C17D985912D6BE0F32979BB4538 /* TTMaskImageView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2CAF6C17D985912D6BE0F32979BB4538 /* TTMaskImageView */ = {
+			isa = PBXGroup;
+			children = (
+				9E990DF6DFB72A4E00DDA1B8D18561BE /* TTMaskImageView.h */,
+				24C58151B2D1DA5CD37E4F7421F39F6B /* TTMaskImageView.m */,
+				DA300E1F8C0EF63A8D0572C68CFF2240 /* Pod */,
+				1682CA6E8051B0FEDFF1DACBF5B3D293 /* Support Files */,
+			);
+			name = TTMaskImageView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		36EAFD0C31D718A1EAB67633C25122E6 /* Pods-TTMaskImageView_Tests */ = {
@@ -168,26 +194,22 @@
 			);
 			sourceTree = "<group>";
 		};
-		B3B860A5D8A2E6F760866C8CE85620C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				67136C4F72BE06480FDC8EF03760210D /* Info.plist */,
-				4B96C98F9A0C333AD760420BD2BF0259 /* TTMaskImageView.modulemap */,
-				A5CD919B43912977210AD92E06650DBF /* TTMaskImageView.xcconfig */,
-				4513C72DB5BF3BDA3F94277D0D86E511 /* TTMaskImageView-dummy.m */,
-				4ADC26EAD23CAFF8B958882812F0FDD8 /* TTMaskImageView-prefix.pch */,
-				1B5D54CB96A832E06FCBA105D08AAE5D /* TTMaskImageView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TTMaskImageView";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA300E1F8C0EF63A8D0572C68CFF2240 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66C677AC0A66F380743C6D31100D53E0 /* LICENSE */,
+				96747A4D83D59EBCBA7E5DD4D1E09983 /* README.md */,
+				3D8DD255DA6F279333AA8A825C82A343 /* TTMaskImageView.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E01DA014BD5509A2911BF58B14B348C9 /* Pods-TTMaskImageView_Example */ = {
@@ -208,37 +230,15 @@
 			path = "Target Support Files/Pods-TTMaskImageView_Example";
 			sourceTree = "<group>";
 		};
-		E289DF6DB96E096D8791054555AAF72C /* TTMaskImageView */ = {
-			isa = PBXGroup;
-			children = (
-				558B2F2266AAA90551FBFB36C8706BEC /* TTMaskImageView.h */,
-				7ADDFDD9E16DEB5ED6276B14D8CB4196 /* TTMaskImageView.m */,
-				EDF7C8F1367CFD31E67DB30376DCB47C /* Pod */,
-				B3B860A5D8A2E6F760866C8CE85620C5 /* Support Files */,
-			);
-			name = TTMaskImageView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EDF7C8F1367CFD31E67DB30376DCB47C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				404A1FD1931B3929BFD243C17779A5EB /* LICENSE */,
-				6301F1B2260A8CAE246EBBFCE042B6C5 /* README.md */,
-				1161B80D6A7BA6B9E28E10A61136FA25 /* TTMaskImageView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23F29E31E5A7B31AEBC847AFEE35C4A3 /* Headers */ = {
+		7B9CA55FCB918AFD26766A281FBD6897 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F5D00BF51C7CAFEEFC4980C2F6E433 /* TTMaskImageView.h in Headers */,
-				F7426E6EFA0B52BAD84BFD20A7297BF6 /* TTMaskImageView-umbrella.h in Headers */,
+				ED5C931316B26A1CBE07BCC54C1BDA01 /* TTMaskImageView-umbrella.h in Headers */,
+				D214A193D8AE3D56B17B2F87EB0152FE /* TTMaskImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +265,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 404B96C23FAAE5D979080979C7C08C53 /* Build configuration list for PBXNativeTarget "TTMaskImageView" */;
 			buildPhases = (
-				5996C2DD33670649FF8597B1BB235376 /* Sources */,
+				AF3FA593BAD5F443C7D7E71C6E97D742 /* Sources */,
 				C8AD012638CC1220D499F6E7D1F1CD0C /* Frameworks */,
-				23F29E31E5A7B31AEBC847AFEE35C4A3 /* Headers */,
+				7B9CA55FCB918AFD26766A281FBD6897 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,20 +343,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5996C2DD33670649FF8597B1BB235376 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D22DD75E1574729337E40ADA07F4523 /* TTMaskImageView.m in Sources */,
-				7025069442A1F841032C71E7DD673D5E /* TTMaskImageView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE9752BCB36347CB2DF6CCC5E27618D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3883A45DAD518BDC33A4D9E55678823E /* Pods-TTMaskImageView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3FA593BAD5F443C7D7E71C6E97D742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AFDE60A719E9BD62AAF078BB87DC24 /* TTMaskImageView-dummy.m in Sources */,
+				B1B72C04BAEB5308475D20571060839D /* TTMaskImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 		};
 		7F148422D4FA47FC2A56629FB2E1FEC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5CD919B43912977210AD92E06650DBF /* TTMaskImageView.xcconfig */;
+			baseConfigurationReference = 7EB5CC95834A4D4F8A3CD3072968E933 /* TTMaskImageView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,7 +640,7 @@
 		};
 		D4A88830A9176DBF36BB4BF4CB389A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5CD919B43912977210AD92E06650DBF /* TTMaskImageView.xcconfig */;
+			baseConfigurationReference = 7EB5CC95834A4D4F8A3CD3072968E933 /* TTMaskImageView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

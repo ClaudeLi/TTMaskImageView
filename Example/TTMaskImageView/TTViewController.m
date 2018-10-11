@@ -7,8 +7,11 @@
 //
 
 #import "TTViewController.h"
+#import <TTMaskImageView/TTMaskImageView.h>
 
-@interface TTViewController ()
+@interface TTViewController (){
+    TTMaskImageView *_maskView;
+}
 
 @end
 
@@ -17,7 +20,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    __weak __typeof(&*self)weakSelf = self;
+
+    _maskView = [[TTMaskImageView alloc] initWithCount:1];
+    
+    _maskView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.3];
+    _maskView.imageView.backgroundColor = [UIColor blackColor];
+    
+    [_maskView showHUDWithFrame:CGRectMake(100, 100, 100, 100) image:[UIImage imageNamed:@""]];
+    [_maskView setClickTagBlock:^(NSInteger index) {
+        if (index == 0) {
+            [weakSelf hideView];
+        }
+    }];
+    [self.view addSubview:_maskView];
+}
+
+- (void)hideView{
+    if (_maskView) {
+        [_maskView removeFromSuperview];
+        _maskView = nil;
+    }
 }
 
 - (void)didReceiveMemoryWarning

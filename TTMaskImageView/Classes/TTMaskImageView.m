@@ -40,7 +40,7 @@
 }
 
 - (void)_setUp{
-    self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
+    self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
     [self addSubview:self.imageView];
     self.userInteractionEnabled = YES;
     [self performSelector:@selector(addTap) withObject:nil afterDelay:0.5];
